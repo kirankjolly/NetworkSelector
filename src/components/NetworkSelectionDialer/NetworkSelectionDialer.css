@@ -1,0 +1,129 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+.nw-selection-container{
+    margin: 5px;
+}
+.button-container {
+	width: 100%;
+	height: 700px;
+	background: rgb(238,238,238); /* Old browsers */
+	background: -webkit-linear-gradient(top, rgba(238,238,238,1) 0%, rgba(238,238,238,1) 100%);
+	background: -moz-linear-gradient(top, rgba(238,238,238,1) 0%, rgba(238,238,238,1) 100%);
+	background: -o-linear-gradient(top, rgba(238,238,238,1) 0%, rgba(238,238,238,1) 100%);
+	background: -ms-linear-gradient(top, rgba(238,238,238,1) 0%, rgba(238,238,238,1) 100%);
+	background: linear-gradient(to bottom, rgba(238,238,238,1) 0%, rgba(238,238,238,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
+    border: 1px solid rgba(0,0,0,.3);
+}
+.wrap0{
+	font-size: 2vw;
+	font-family: 'Allerta', sans-serif;
+	text-align:start;
+	padding-left:0.5vw;
+	margin:1vw;
+}
+.wrap1 {
+	width: 100%;
+	top: 0px;
+    margin-bottom: 2vw;
+    text-align: center;
+}
+
+.wrap1 input[type=text] {
+	width: 99%;
+	border-radius: 4px;
+	height: 5vw;
+	background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+	background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+	background: -o-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+	background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+-webkit-box-shadow: 0px 1.2px 0px white inset, 0px -1.2px 0px white inset, 1.2px 0px 0px white inset, -1.2px 0px 0px white inset;
+	box-shadow: 0px 1.2px 0px white inset, 0px -1.2px 0px white inset, 1.2px 0px 0px white inset, -1.2px 0px 0px white inset;
+	border: 1px solid black;
+	font-family: 'Allerta', sans-serif;
+	font-size: 3.5vw;
+	text-align: center;
+	bottom: 5px;
+}
+.wrap2 {
+	width: 100%;
+}
+
+section {
+	width: 100%;
+	text-align:center;
+}
+
+input[type=button] {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border: none;
+}
+
+input[type=button] {
+	padding: 0px;
+	width: 30%;
+	height: 5vw;
+	font-size: 2.5vw;
+	border: 1px solid rgba(0,0,0,.4);
+	border-radius: 2px;
+	margin-bottom: 5px;
+
+	-webkit-transition: all .6s ease-in;
+	-moz-transition: all .6s ease-in;
+	-o-transition: all .6s ease-in;
+	-ms-transition: all .6s ease-in;
+	transition: all .6s ease-in;
+}
+
+input.active {
+	background: -webkit-linear-gradient(#F0F6FB 0%, #E2EAF3 49%, #D5E0ED 50%, #D7E2EF 100%);
+	background: -moz-linear-gradient(#F0F6FB 0%, #E2EAF3 49%, #D5E0ED 50%, #D7E2EF 100%);
+	background: -o-linear-gradient(#F0F6FB 0%, #E2EAF3 49%, #D5E0ED 50%, #D7E2EF 100%);
+	background: -ms-linear-gradient(#F0F6FB 0%, #E2EAF3 49%, #D5E0ED 50%, #D7E2EF 100%);
+	background: linear-gradient(#F0F6FB 0%, #E2EAF3 49%, #D5E0ED 50%, #D7E2EF 100%);
+
+	-webkit-box-shadow: 0px -1px 6px white inset;
+	box-shadow: 0px -1px 6px white inset;
+}
+
+input.disabled {
+	background-color: transparent;
+	border: none;
+
+	-webkit-box-shadow: 0px 0px 2px black;
+	box-shadow: 0px 0px 2px black;
+}
+
+input.sem-active {
+	background-color: transparent;
+
+	-webkit-box-shadow: 1.6px 1.6px 0px white inset, -1.6px -1.6px 0px white inset;
+	box-shadow: 1.6px 1.6px 0px white inset, -1.6px -1.6px 0px white inset;
+}
+
+input.active:hover,input.sem-active:hover {
+	background: -webkit-linear-gradient(#FFE3B5 50%, #FCBF5D 50%);
+	background: -moz-linear-gradient(#FFE3B5 50%, #FCBF5D 50%);
+	background: -o-linear-gradient(#FFE3B5 50%, #FCBF5D 50%);
+	background: -ms-linear-gradient(#FFE3B5 50%, #FCBF5D 50%);
+	background: linear-gradient(#FFE3B5 50%, #FCBF5D 50%);
+
+	-webkit-box-shadow: 1px 1px 2px #ffb76b,0px -1px 5px white inset;
+	box-shadow: 1px 1px 2px #ffb76b,0px -1px 5px white inset;
+	border-color: #FCBF5D;
+}
+
+.bottom-note-container{
+	font-style: italic;
+	text-align: end;
+	font-size: 12px;
+	padding: 0 3vw;
+}
+
+
