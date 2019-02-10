@@ -6,7 +6,7 @@ class OperatorsPriceList extends Component {
     render() {
         return (
             <div className="price-list-container">
-                <img src={image} alt="Price List"></img>
+                <img className="price-list-image" src={image} alt="Price List"></img>
             </div>
         );
     }

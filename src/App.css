@@ -1,4 +1,10 @@
+.logo-container{
+    border-bottom: 1px #cccccc solid;
+}
+.logo-image{
+    width: 350px;
+}
 .equel-component{
-    float: left; 
+    float: left;
     width:50%; 
 }
